@@ -114,5 +114,13 @@ Figure below illustrates the ihpAmount from FEMA and the DNN model. In this map,
 
 Figure below displays the ihpAmount prediction error for each paired zip code, i.e., green in the figure above. The lower the error (coded with lighter color), the closer the prediction is to the FEMA survey, and the darker the color, the less accurate for the DNN estimation. The color intensity is divided into 10 equal bins by data size, with the remaining marked in light blue. It is worth noting that this map only shows the overlapping (FEMA survey and DNN estimation) ihpAmount to show the accuracy as an example; the other categories can be analyzed the same way. In this map, 7 out of 10 bins have an estimation error below 43%, which is consistent with the average ihpAmount 68.42% accuracy. The more accurate estimations appear close to the cities (Houston, Dallas, and San Antonio) compared to rural regions. The map distribution also suggests more data collection in the centers of Houston and Dallas areas, as they are voids. Altogether, the DNN only trained on text data is capable of predicting average damage with up to 70% accuracy and is able to estimate damage for the communities that are often neglected.
 ![Map6](https://user-images.githubusercontent.com/89216739/205318959-93f88907-822c-4854-bf3b-5bae21d2ee08.png)
+ <iframe  
+ height=850 
+ width=90% 
+ src="https://experience.arcgis.com/experience/66ce0416adaa4f8fb78a895f06ed4511/"  
+ frameborder=0  
+ allowfullscreen>
+ </iframe>
+
 
 
